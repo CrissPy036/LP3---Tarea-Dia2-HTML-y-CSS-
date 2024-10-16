@@ -1,0 +1,48 @@
+p + p { /* Selectores adyacentes: hermanos <p> deben ser verdes */
+  color: green;
+}
+
+p.text-indent { /* Clase text-indent: desplazamiento de la primera línea de 30px */
+  text-indent: 30px;
+}
+
+p.text-align { /* Clase text-align: alinear el texto a la derecha */
+  text-align: right;
+}
+
+p.text-decoration { /* Clase text-decoration: subrayado */
+  text-decoration: underline;
+}
+
+p.letter-spacing { /* Clase letter-spacing: espacio entre caracteres de 3px */
+  letter-spacing: 3px;
+}
+
+p.word-spacing { /* Clase word-spacing: espacio entre palabras de 10px */
+  word-spacing: 10px;
+}
+
+p.text-transform { /* Clase text-transform: transformar a mayúsculas */
+  text-transform: uppercase;
+}
+
+p.line-height { /* Clase line-height: espacio entre líneas de 70px */
+  line-height: 70px;
+}
+
+td { /* Celdas <td> con altura de 100px y borde gris de 1px sólido */
+  height: 100px;
+  border: 1px solid grey;
+}
+
+td.a { /* Celdas con clases a, b, c alineación vertical */
+  vertical-align: top;
+}
+
+td.b {
+  vertical-align: middle;
+}
+
+td.c {
+  vertical-align: bottom;
+}
